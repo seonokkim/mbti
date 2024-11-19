@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBTI Test</title>
+    <!-- Link to Bootstrap CSS for styling -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Additional styling for card and layout */
+        body {
+            background-color: #f8f9fa;
+        }
+        .card {
+            border-radius: 15px;
+        }
+        button {
+            font-size: 1.2rem;
+            padding: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="text-center mb-5">MBTI Test</h1>
+        <div class="row justify-content-center">
+            <div class="col-10 col-md-8 col-lg-6">
+                <!-- Card for the question -->
+                <div class="card shadow">
+                    <div class="card-body">
+                        <h2 class="card-title mb-4" id="question-number">Question 1</h2>
+                        <p class="card-text mb-4" id="question">
+                            Do you prefer staying at home and watching movies or TV shows this weekend?
+                        </p>
+                        <!-- Buttons for "Yes" and "No" -->
+                        <div class="d-grid gap-2">
+                            <button id="yes-button" class="btn btn-primary">Yes</button>
+                            <button id="no-button" class="btn btn-secondary">No</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- External JavaScript -->
+    <script src="./index.js"></script>
+</body>
+</html>
