@@ -15,8 +15,12 @@ A simple and interactive web application that allows users to take an MBTI test 
 
 ## 📂 Project Structure
 📁 project-root
+
+```bash
 ├── index.html       # Entry page with “Start” button
 ├── test.html        # Test page with dynamic questions
 ├── result.html      # Result page displaying the MBTI type
 ├── index.js         # Logic for managing questions and answers
 └── README.md        # Project documentation
+
+```
